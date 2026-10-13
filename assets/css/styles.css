@@ -177,6 +177,21 @@ main {
   margin: 0;
 }
 
+.intro__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 12px;
+  color: var(--teal);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.intro__links a:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 4px;
+}
+
 .intro__content {
   min-width: 0;
 }
